@@ -5,6 +5,11 @@
 body {
   width: 100%;
 }
+.content {
+  border-bottom: 1px solid #eee;
+  padding: 16px 0;
+  overflow: hidden;
+}
 h1 {
   font-size: 36px;
   padding-left: 8px;
