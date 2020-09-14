@@ -4,18 +4,48 @@
 }
 body {
   width: 100%;
+  background: #f9f9f9;
+}
+.wrapper {
+  width: 608px;
+  /* div要素はデフォが100％のため */
+  margin: 0 auto;
+  overflow: hidden;
+  background: #fff;
+  padding: 16px;
 }
 .content {
   border-bottom: 1px solid #eee;
   padding: 16px 0;
   overflow: hidden;
 }
-h1 {
+.content:last-child {
+  border-bottom: 0;
+}
+/* h1 {
   font-size: 36px;
   padding-left: 8px;
   margin-bottom: 16px;
-  color: 555;
+  color: #555;
   font-weight: 400;
+} */
+.top-title {
+  font-size: 36px;
+  padding-left: 8px;
+  margin-bottom: 16px;
+  color: #555;
+  font-weight: 400;
+  border-left: 6px solid #e63c35;
+}
+.right-box {
+  float: left;
+  width: 288px;
+  margin-right: 18px;
+}
+.left-box {
+  float: left;
+  width: 288px;
+  margin-right: 18px;
 }
 img {
   float: left;
@@ -27,7 +57,7 @@ h2 {
 p {
   margin-bottom: 16px;
 }
-a {
+a.fbbutton {
   margin-top: 16px;
   font-size: 16px;
   padding: 8px 32px;
@@ -39,7 +69,7 @@ a {
   transition: 0.5s;
 }
 
-a:hover {
+a.fbbutton:hover {
   background: #f9f9f9;
   color: #3b5998;
 }
