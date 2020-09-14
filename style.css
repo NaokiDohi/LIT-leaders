@@ -6,13 +6,49 @@ body {
   width: 100%;
   background: #f9f9f9;
 }
-.wrapper {
+#header {
+  width: 100%;
+  overflow: hidden;
+  background: #e63c35;
+  padding: 6px 0px;
+}
+#header h1 {
+  float: left;
+  color: #f9f9f9;
+  margin-right: 48px;
+}
+nav {
+  overflow: hidden;
+}
+nav li {
+  list-style-type: none;
+  float: left;
+  margin-top: 2px;
+}
+nav a {
+  font-size: 16px;
+  display: block;
+  text-decoration: none;
+  color: #f9f9f9;
+  margin: 14px 16px 0px;
+  /* 上　左右　した */
+  transition: 0.3s;
+}
+
+nav a:hover {
+  border-bottom: 3px solid #f9f9f9;
+}
+#main {
   width: 608px;
   /* div要素はデフォが100％のため */
   margin: 0 auto;
   overflow: hidden;
   background: #fff;
   padding: 16px;
+}
+.wrapper {
+  width: 640px;
+  margin: 0 auto;
 }
 .content {
   border-bottom: 1px solid #eee;
