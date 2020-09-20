@@ -118,6 +118,49 @@ a.fbbutton:hover {
   color: #3b5998;
 }
 
+a.ins {
+  margin-top: 16px;
+  font-size: 16px;
+  padding: 8px 32px;
+  background: red;
+  color: #f9f9f9;
+  border: 1px solid red;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+a.ins:hover {
+  background: #f9f9f9;
+  color: red;
+}
+
+a.twitter {
+  margin-top: 16px;
+  font-size: 16px;
+  padding: 8px 32px;
+  background: blue;
+  color: #f9f9f9;
+  border: 1px solid blue;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+a.twitter:hover {
+  background: #f9f9f9;
+  color: blue;
+}
+
+.portfolio {
+  font-size: 36px;
+  padding-left: 8px;
+  margin-bottom: 16px;
+  color: red;
+  font-weight: 400;
+  border-left: 6px solid red;
+}
+
 #sidebar {
   float: left;
   width: 280px;
@@ -125,11 +168,69 @@ a.fbbutton:hover {
   background: #f9f9f9;
   padding: 8px;
 }
-#sidebar img {
+#sidebar a.covid {
+  width: 280;
   margin-bottom: 16px;
+  margin-top: 16px;
+  font-size: 16px;
+  padding: 8px 32px;
+  background: red;
+  color: #f9f9f9;
+  border: 3px solid red;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.2s;
 }
+
+#sidebar a.covid:hover {
+  background: #f9f9f9;
+  color: red;
+  border: 3px solid red;
+}
+
+#sidebar a.lab {
+  width: 280;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  font-size: 16px;
+  padding: 8px 32px;
+  background: green;
+  color: #f9f9f9;
+  border: 3px solid green;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+#sidebar a.lab:hover {
+  background: #f9f9f9;
+  color: green;
+  border: 3px solid green;
+}
+
+#sidebar a.gatsby {
+  width: 280;
+  margin-bottom: 16px;
+  margin-top: 16px;
+  font-size: 16px;
+  padding: 8px 32px;
+  background: blue;
+  color: #f9f9f9;
+  border: 3px solid blue;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+#sidebar a.gatsby:hover {
+  background: #f9f9f9;
+  color: blue;
+  border: 3px solid blue;
+}
+
 #sidebar h3 {
   font-size: 20px;
+  margin-top: 8px;
   margin-bottom: 8px;
 }
 #sidebar p {
